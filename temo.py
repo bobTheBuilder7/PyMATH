@@ -15,7 +15,7 @@ while len(numbers) < 4:
             numbers.append(isqrt(n - k ** 2))
             numbers.append(k)
     else:
-        print('не возможно для этого числа')
+        print('not possible for this number')
         exit()
     k = k + 1
 

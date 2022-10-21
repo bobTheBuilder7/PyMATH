@@ -1,7 +1,7 @@
 from math import sqrt
 
 n = 803293995722606153
-print('symbols amouns', len(str(n)))
+print('symbols amount', len(str(n)))
 x = round(sqrt(n)) - 1
 k = 1
 while True:

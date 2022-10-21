@@ -1,9 +1,9 @@
 from math import exp, sqrt, e, log, isqrt, prod, gcd, ceil
 from itertools import combinations
-from reshetoEratosphena import resheto
+from Eratosphen import resheto
 
 n = 813967068547
-print('колво символов', len(str(n)))
+print('symbols amount', len(str(n)))
 B = ceil(sqrt(exp(sqrt(log(n, e) * log(log(n, e), e)))))
 print(B)
 B = B * 3
